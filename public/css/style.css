@@ -59,3 +59,13 @@ h1 {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     width: 200px;
 }
+
+.profile-image {
+    width: 200px;        /* Tamaño de la imagen */
+    height: 200px;       /* Tamaño de la imagen */
+    border-radius: 50%;  /* Esto hace que la imagen sea redonda */
+    object-fit: cover;   /* Asegura que la foto no se deforme */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+    border: 5px solid white; /* Un borde blanco decorativo */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra suave */
+}
