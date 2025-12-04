@@ -6,3 +6,5 @@ yarn.lock
 *.log
 .idea
 .github
+node_modules
+
